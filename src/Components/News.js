@@ -14,6 +14,7 @@ const News = (props) => {
   // )} - NewsApp`;
 
   const capitalizeFirstLetter = (string) => {
+    console.log(loading);
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
 
