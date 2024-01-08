@@ -36,7 +36,7 @@ const News = (props) => {
 
   useEffect(() => {
     updateNews();
-  }, []);
+  });
 
   // async componentDidMount() {
   // let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=962f603a690c4815a41e19f530fe3656&page=${props.page}&pageSize=${props.pageSize}`;
